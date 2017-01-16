@@ -1,0 +1,20 @@
+<article>
+    <form id="login-form" {{action "login" on="submit"}}>
+        <section class="row grid grid--justify-space-around">
+            <fieldset class="grid__col-md-4 grid__col-xs-12">
+              {{input type="email" name="email" class="required" placeholder="Enter email" value=email}}
+            </fieldset>
+        </section>
+        <section class="row grid grid--justify-space-around">
+            <fieldset class="grid__col-md-4 grid__col-xs-12">
+              {{input type="password" class="required" name="password" placeholder="Enter password" value=password}}
+            </fieldset>
+        </section>
+
+        <section class="logIn__button row grid grid--justify-space-around">
+            <fieldset class="grid__col-md-2 grid__col-xs-12">
+                <input type="submit" class="button__primary button" value="log in">
+            </fieldset>
+        </section>
+    </form>
+</article>
