@@ -4,8 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'hotel-app',
     environment: environment,
-    rootURL: '/',
-    baseURL: '/manager',
+    rootURL: '/manager/',
+    //baseURL: '/manager',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
